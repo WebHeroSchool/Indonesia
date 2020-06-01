@@ -1,40 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Bali</title>
   </head>
-
   <body>
     <header class="header">
-      <div class="logo">World of Travel</div>
+      <img class="header__logo" src="pic/logo.png" alt="Aron">
       <nav class="nav">
-        <a href="">Start</a>
-        <a href="">Services</a>
-        <a href="">About</a>
-        <a href="">Blog</a>
-        <a href="">Contact us</a>
+        <div class="nav-menu">
+          <input id="menu__toggle" type="checkbox" />
+          <label class="menu__btn" for="menu__toggle">
+            <span></span>
+          </label>
+          <a class="nav__start" href="">Start</a>
+          <a class="nav__services" href="">Services</a>
+          <a class="nav__about" href="">About</a>
+          <a class="nav__blog" href="">Blog</a>
+          <a class="nav__contact" href="">Contact us</a>
+        </div>
       </nav>
     </header>
-
-    <section class="section">
-      <article class="title">
-        <h1 class="bali">Bali</h1>
-        <h3 class="indonesia">indonesia</h3>
-        <p class="text">Best Bali travel guide great tips. Book hotels and <br>villas, explore the best spas, events, Bali tempes, <br> scuba centers, and activities. </p>
-        <p class="button"><button>Book travel</button>
-        </p>
+    <section class="container">
+      <article class="container__box">
+        <h1 class="container__title">Bali</h1>
+        <h3 class="container__subtitle">indonesia</h3>
+        <p class="container__text">Best Bali travel guide great tips. Book hotels and villas, explore the best spas, events, Bali tempes, scuba centers, and activities. </p>
+        <button class="container__btn">Book travel</button>
       </article>
       <aside class="picture">
-        <img src="aron.png" alt="Aron">
-        <img src="gates.png" alt="Gates">
-        <img src="sebastian" alt="Sebastian">
+        <img class="picture__aron" src="pic/aron.png" alt="Aron">
+        <img class="picture__gates" src="pic/gates.png" alt="Gates">
+        <img class="picture_sebastian" src="pic/sebastian.png" alt="Sebastian">
       </aside>
     </section>
-
   </body>
-
 </html>
