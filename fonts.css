@@ -11,7 +11,8 @@
   font-style: normal;
 }
 @font-face {
-  src: url('../fonts/MuseoSansCyrl-300.woff')format('woff');
-  font-weight: 300;
+  font-family: 'Museo';
+  src: url('../fonts/MuseoSansCyrl-500.woff')format('woff');
+  font-weight: bold;
   font-style: normal;
 }
