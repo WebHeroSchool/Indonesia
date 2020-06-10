@@ -1,0 +1,99 @@
+.body {
+  max-width: 1920px;
+  min-width: 375px;
+  height: 100vh;
+  margin: 0 auto;
+  background: url('pic/iswanto-arif-448003-unsplash.png');
+  background-size: cover;
+}
+.header {
+  width: 90%;
+  height: 200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+.logo__wrap {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+.stumb {
+  flex: 2;
+}
+.nav {
+  display: flex;
+  flex: 2;
+  justify-content: space-between;
+}
+.nav__link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 22px;
+  font-family: 'Museo'
+}
+.section{
+
+}
+.bali__title{
+  position: absolute;
+  left: 4.4%;
+  right: 62.15%;
+  top: 12.26%;
+  bottom: 40.23%;
+  font-family: 'PTSerif';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 280px;
+  line-height: 362px;
+  display: flex;
+  align-items: center;
+  color: #f8eee4;
+  opacity: 0.4;
+}
+.bali__subtitle{
+position: absolute;
+left: 10.71%;
+right: 60.98%;
+top: 40.61%;
+bottom: 41.28%;
+font-family: 'PTSerif'
+font-style: normal;
+font-weight: bold;
+font-size: 98px;
+line-height: 127px;
+display: flex;
+align-items: baseline;
+color: #F8EEE4;
+}
+.bali__text{
+position: absolute;
+left: 5.49%;
+right: 56.82%;
+top: 65.55%;
+bottom: 34.38%;
+font-family: 'Museo';
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 26px;
+
+color: #F8EEE4;
+}
+.picture {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-top: 5%;
+  padding-left: 44.73%;
+  padding-right: 37.73%;
+}
+.bali__btn {
+  position: absolute;
+  left: 11.57%;
+  right: 73.13%;
+  top: 71.22%;
+  bottom: 23.05%;
+  background: #D4BEA3;
+  border-radius: 48px;
+}
