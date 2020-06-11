@@ -12,6 +12,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  box-sizing: border-box;
 }
 .nav {
   display: flex;
@@ -19,63 +20,62 @@
 }
 .nav__link:not(:last-child) {
   margin: 0 34px 0 0;
+}
+.nav__link{
   color: #fff;
   text-decoration: none;
   font-size: 22px;
-  font-family: 'Museo'
+  font-family: 'Museo';
 }
-.section{
-
-}
-.bali__title{
-  position: absolute;
-  left: 4.4%;
-  right: 62.15%;
-  top: 12.26%;
-  bottom: 40.23%;
+  .container{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+.bali__title {
+  display: flex;
   font-family: 'PTSerif';
   font-style: normal;
   font-weight: bold;
   font-size: 280px;
   line-height: 362px;
-  display: flex;
   align-items: center;
+  justify-content: space-between;
   color: #f8eee4;
   opacity: 0.4;
 }
 .bali__subtitle{
-position: absolute;
-left: 10.71%;
-right: 60.98%;
-top: 40.61%;
-bottom: 41.28%;
-font-family: 'PTSerif'
-font-style: normal;
-font-weight: bold;
-font-size: 98px;
-line-height: 127px;
-display: flex;
-align-items: baseline;
-color: #F8EEE4;
+  font-family: 'PTSerif';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 98px;
+  line-height: 127px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 9.71%;
+  right: 60.98%;
+  top: 46.61%;
+  bottom: 41.28%;
+  color: #F8EEE4;
 }
 .bali__text{
 position: absolute;
 left: 5.49%;
 right: 56.82%;
-top: 65.55%;
+top: 62.55%;
 bottom: 34.38%;
 font-family: 'Museo';
 font-style: normal;
 font-weight: normal;
 font-size: 22px;
 line-height: 26px;
-
 color: #F8EEE4;
 }
 .picture {
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: flex-end;
   margin-top: 5%;
   padding-left: 44.73%;
   padding-right: 37.73%;
