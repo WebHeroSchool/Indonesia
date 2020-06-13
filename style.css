@@ -1,94 +1,106 @@
 .body {
-  max-width: 1920px;
-  min-width: 375px;
-  height: 100vh;
-  margin: 0 auto;
-  background: url('pic/iswanto-arif-448003-unsplash.png');
-  background-size: cover;
+    max-width: 1920px;
+    min-width: 375px;
+    margin: 0 auto;
+    background: url('pic/iswanto-arif-448003-unsplash.png') no-repeat;
+    background-size: cover;
+    overflow: hidden;
 }
+
 .header {
-  width: 100%;
-  padding: 89px 114px 0 200px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  box-sizing: border-box;
-}
-.nav {
-  display: flex;
-  justify-content: center;
-}
-.nav__link:not(:last-child) {
-  margin: 0 34px 0 0;
-}
-.nav__link{
-  color: #fff;
-  text-decoration: none;
-  font-size: 22px;
-  font-family: 'Museo';
-}
-  .container{
+    width: 100%;
+    padding: 89px 114px 0 200px;
     display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-  }
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 0 0 97px 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0 0 10%;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+.nav__link:not(:last-child) {
+    margin: 0 34px 0 0;
+}
+
+.nav__link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 19px;
+    font-family: 'Museo';
+}
+
+.bali {
+    display: flex;
+    flex-direction: column;
+}
+.bali-wrapper {
+    position: relative;
+}
 .bali__title {
-  display: flex;
-  font-family: 'PTSerif';
-  font-style: normal;
-  font-weight: bold;
-  font-size: 280px;
-  line-height: 362px;
-  align-items: center;
-  justify-content: space-between;
-  color: #f8eee4;
-  opacity: 0.4;
+    display: flex;
+    font-family: 'PTSerif';
+    font-style: normal;
+    margin: 0;
+    font-weight: bold;
+    font-size: 200px;
+    line-height: 265px;
+    color: #f8eee4;
+    opacity: 0.4;
 }
-.bali__subtitle{
-  font-family: 'PTSerif';
-  font-style: normal;
-  font-weight: bold;
-  font-size: 98px;
-  line-height: 127px;
-  display: flex;
-  align-items: center;
-  position: absolute;
-  left: 9.71%;
-  right: 60.98%;
-  top: 46.61%;
-  bottom: 41.28%;
-  color: #F8EEE4;
+.bali__subtitle {
+    font-family: 'PTSerif';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 93px;
+    margin: 0;
+    color: #F8EEE4;
+    position: absolute;
+    left: 59px;
+    bottom: 8px;
 }
-.bali__text{
-position: absolute;
-left: 5.49%;
-right: 56.82%;
-top: 62.55%;
-bottom: 34.38%;
-font-family: 'Museo';
-font-style: normal;
-font-weight: normal;
-font-size: 22px;
-line-height: 26px;
-color: #F8EEE4;
+
+.bali__text {
+    font-family: 'Museo';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F8EEE4;
+    margin: 0 0 24px 0;
+    position: relative;
+    left: 15px;
 }
+
 .picture {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  margin-top: 5%;
-  padding-left: 44.73%;
-  padding-right: 37.73%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.picture__pic:not(:last-child) {
+    margin: 0 24px 0 0;
 }
 .bali__btn {
-  width: 209px;
-  height: 44px;
-  background: #D4BEA3;
-  border-radius: 48px;
-  font-family: 'Museo';
-  font-weight: bold;
-  font-size: 22px;
-  line-height: 26px;
-  color: #ffffff
-
+    width: 209px;
+    height: 44px;
+    background: #D4BEA3;
+    border-radius: 48px;
+    font-family: 'Museo';
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+    cursor: pointer;
 }
