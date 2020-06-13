@@ -5,6 +5,7 @@
     background: url('pic/iswanto-arif-448003-unsplash.png') no-repeat;
     background-size: cover;
     overflow: hidden;
+    height: 100vh;
 }
 
 .header {
@@ -21,7 +22,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 0 0 10%;
+    padding: 0 0 0 200px;
 }
 
 .nav {
@@ -39,6 +40,15 @@
     font-size: 16px;
     line-height: 19px;
     font-family: 'Museo';
+    border-bottom: 1px solid transparent;
+}
+
+.nav__link:hover {
+    border-bottom: 1px solid #ffffff;
+}
+
+.nav__toggle {
+    display: none;
 }
 
 .bali {
@@ -79,28 +89,46 @@
     font-size: 16px;
     line-height: 19px;
     color: #F8EEE4;
-    margin: 0 0 24px 0;
-    position: relative;
-    left: 15px;
+    margin: 6px 0 24px 15px;
+    max-width: 399px;
 }
 
 .picture {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: -5px;
 }
+
+.picture__pic {
+    width: 202px;
+    height: 270px;
+}
+
 .picture__pic:not(:last-child) {
     margin: 0 24px 0 0;
 }
+
+.picture__pic_active {
+    width: 226px;
+    height: 300px;
+}
+
 .bali__btn {
     width: 209px;
     height: 44px;
     background: #D4BEA3;
     border-radius: 48px;
-    font-family: 'Museo';
+    border: none;
     font-weight: bold;
     font-size: 16px;
     line-height: 19px;
     color: #ffffff;
     cursor: pointer;
+    transition: .5s;
+}
+
+.bali__btn:hover {
+    background: none;
+    border: 1px solid #D4BEA3;
 }
