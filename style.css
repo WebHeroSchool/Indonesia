@@ -1,13 +1,12 @@
 .body {
     max-width: 1920px;
-    min-width: 375px;
     margin: 0 auto;
     background: url('pic/iswanto-arif-448003-unsplash.png') no-repeat;
     background-size: cover;
     overflow: hidden;
     height: 100vh;
+    width: 100%;
 }
-
 .header {
     width: 100%;
     padding: 89px 114px 0 200px;
@@ -17,23 +16,19 @@
     box-sizing: border-box;
     margin: 0 0 97px 0;
 }
-
 .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 0 0 200px;
 }
-
 .nav {
     display: flex;
     justify-content: center;
 }
-
 .nav__link:not(:last-child) {
     margin: 0 34px 0 0;
 }
-
 .nav__link {
     color: #fff;
     text-decoration: none;
@@ -42,15 +37,12 @@
     font-family: 'Museo';
     border-bottom: 1px solid transparent;
 }
-
 .nav__link:hover {
     border-bottom: 1px solid #ffffff;
 }
-
 .nav__toggle {
     display: none;
 }
-
 .bali {
     display: flex;
     flex-direction: column;
@@ -89,17 +81,16 @@
     font-size: 16px;
     line-height: 19px;
     color: #F8EEE4;
-    margin: 6px 0 24px 15px;
+    margin: 0 0 24px 0;
     max-width: 399px;
+    padding-left: 10px;
 }
-
 .picture {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-right: -5px;
 }
-
 .picture__pic {
     width: 202px;
     height: 270px;
@@ -108,12 +99,10 @@
 .picture__pic:not(:last-child) {
     margin: 0 24px 0 0;
 }
-
 .picture__pic_active {
     width: 226px;
     height: 300px;
 }
-
 .bali__btn {
     width: 209px;
     height: 44px;
@@ -127,8 +116,52 @@
     cursor: pointer;
     transition: .5s;
 }
-
 .bali__btn:hover {
     background: none;
     border: 1px solid #D4BEA3;
+}
+
+@media screen and (max-width: 420px) {
+  .header {
+      padding: 30px 20px 0;
+      margin: 0;
+  }
+
+  .logo {
+    height: 30px;
+    width: auto;
+  }
+
+  .nav__link {
+    display: none;
+  }
+
+  .nav__toggle {
+    display: block;
+  }
+
+  .picture {
+    display: none;
+  }
+
+  .container {
+    padding: 0;
+  }
+  .bali__title{
+    font-size: 170px;
+    line-height: 220px;
+  }
+  .bali__subtitle{
+    font-size: 60px;
+    line-height: 78px;
+  }
+  .bali {
+    align-items: center;
+  }
+
+  .bali__text {
+    font-size: 18px;
+    align-items: center;
+    padding-top: 30px;
+  }
 }
