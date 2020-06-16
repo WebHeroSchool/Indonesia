@@ -192,13 +192,13 @@
     margin: 0 0 90px 0;
   }
 
-  .nav__link:not(:last-child) {
-    margin: 0 24px 0 0;
-  }
-
   .nav__link {
     font-size: 16px;
     line-height: 19px;
+  }
+
+  .nav__link:not(:last-child) {
+    margin: 0 24px 0 0;
   }
 
   .picture__pic {
@@ -515,7 +515,7 @@
 
   .bali__subtitle {
     margin: 0 0 15px 0;
-    top: 0;
+    top: 151px;
   }
 
   .bali__text {
@@ -527,10 +527,6 @@
 
   .bali-wrapper {
     right: 11px;
-  }
-
-  .bali__subtitle {
-    top: 151px;
   }
 
   .body {
