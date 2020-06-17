@@ -39,7 +39,7 @@
 .nav {
   display: flex;
   justify-content: center;
-  margin-right: 4px;
+  padding-right: 4px;
   letter-spacing: .25pt;
 }
 
@@ -70,7 +70,7 @@
 }
 
 .nav__link:focus {
-  outline: none;
+    outline: none;
 }
 
 .nav__toggle {
@@ -391,6 +391,7 @@
   .nav {
     display: none;
     transition: .6s ease;
+    padding: 0;
   }
 
   .nav__toggle {
@@ -555,5 +556,19 @@
     font-size: 50px;
     line-height: 70px;
     top: 130px;
+  }
+}
+
+@media (orientation: portrait) and (min-height: 668px) {
+  .body {
+    background: url('pic/backgroundtablet.png') no-repeat;
+    background-size: cover;
+  }
+}
+
+@media (min-height: 769px) {
+  .body {
+    background: url('pic/iswanto-arif-448003-unsplash.png') no-repeat;
+    background-size: cover;
   }
 }
