@@ -70,7 +70,7 @@
 }
 
 .nav__link:focus {
-    outline: none;
+  outline: none;
 }
 
 .nav__toggle {
