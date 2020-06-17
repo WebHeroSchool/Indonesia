@@ -51,6 +51,7 @@
   font-family: 'Museo', sans-serif;
   border-bottom: 1px solid transparent;
   transition: .3s ease;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 .nav__link:not(:last-child) {
@@ -59,7 +60,17 @@
 
 .nav__link:hover {
   border-bottom: 1px solid #fff;
-  opacity: .8;
+  opacity: .7;
+}
+
+.nav__link:active {
+  opacity: 1;
+  transform: scale(.9);
+  transition: .1s ease;
+}
+
+.nav__link:focus {
+    outline: none;
 }
 
 .nav__toggle {
@@ -154,11 +165,21 @@
   color: #fff;
   cursor: pointer;
   transition: .5s;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 .bali__btn:hover {
   background: none;
   border: 1px solid #d4bea3;
+}
+
+.bali__btn:active {
+  transform: scale(.9);
+  transition: .3s ease;
+}
+
+.bali__btn:focus {
+    outline: none;
 }
 
 #cut {
@@ -402,6 +423,7 @@
     position: relative;
     z-index: 10;
     right: 0;
+    cursor: pointer;
   }
 
   .nav__burder::before,
